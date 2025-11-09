@@ -1,5 +1,6 @@
 function firstWord(s) {
-  // your code here s = s.trimStart();
+  // your code here
+  s = s.trimStart();
 
   // If the string is empty, return it directly
   if (s === "") return "";
@@ -15,6 +16,6 @@ function firstWord(s) {
 }
 
 // Do not change the code below
-
 const s = prompt("Enter String:");
 alert(firstWord(s));
+
